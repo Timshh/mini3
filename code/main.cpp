@@ -61,6 +61,7 @@ int main() {
 
   // 3 - search
   std::string search;
+  std::cout << "Enter find: ";
   std::cin.ignore();
   std::getline(std::cin, search);
 
